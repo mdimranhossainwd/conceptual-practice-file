@@ -101,7 +101,7 @@
   background-image: url("./images/background.png"),
     linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
   /* background-size: cover; */
-  height: 70vh;
+  height: 75vh;
 }
 
 .product-text {
@@ -127,4 +127,43 @@
   background-color: #000;
   margin-top: 25px;
   border-radius: 10px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer-img {
+  width: 120px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.footer-area {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  height: 60vh;
+  justify-content: space-around;
+  border-bottom: 2px solid grey;
+}
+
+.footer-list {
+  width: 40%;
+}
+
+.footer-text {
+  font-size: 20px;
+}
+
+.footer-list h2 {
+  margin-bottom: 20px;
+}
+
+.footer-list li {
+  list-style: none;
+  margin-bottom: 10px;
 }
