@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-area {
+  background-color: #424141;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.logo img {
+  width: 100px;
+  height: 30px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 15px;
+}
+
+.menu ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
