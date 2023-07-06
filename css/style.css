@@ -96,3 +96,35 @@
   margin-bottom: 15px;
   font-size: 20px;
 }
+
+.service-area {
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+  /* background-size: cover; */
+  height: 70vh;
+}
+
+.product-text {
+  color: #fff;
+}
+
+.product-sizing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-img img {
+  width: 70px;
+  color: #2e2e2e;
+}
+
+.product-box {
+  width: 200px;
+  height: 280px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 4px 2px 105px gray;
+  background-color: #000;
+  margin-top: 25px;
+  border-radius: 10px;
+}
